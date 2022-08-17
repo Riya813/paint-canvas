@@ -1,0 +1,264 @@
+body{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    /* background-image: linear-gradient(to right, yellow, greenyellow); */
+    /* background-color: coral; */
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    background-color: aquamarine;
+    margin-top: -30px;
+}
+
+#title p{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+
+main{
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    
+}
+
+#colors{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.small-circles{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin: 20px;
+    cursor: grab;
+    
+}
+
+#coloring-blocks{
+    display: flex;
+    justify-content: center;
+}
+
+#rect1{
+    width: 400px;
+    height: 80px;
+    border: 3px solid black;
+    position: absolute;
+    top: 400px;
+    left: 600px;
+    z-index: 1;
+    background-color: white;
+}
+
+#rect2{
+    width: 400px;
+    height: 20px;
+    border: 3px solid black;
+    position: absolute;
+    top: 379px;
+    left: 600px;
+    z-index: 1;
+    background-color: white;
+}
+
+#square1{
+    width: 60px;
+    height: 60px;
+    border: 3px solid black;
+    position: absolute;
+    top: 440px;
+    left: 539px;
+    z-index: 1;
+    background-color: white;
+}
+#triangle1{
+    width: 65px;
+    height: 86px;
+    /* background: #FFFFFF; */
+    border-top: 0px solid black;
+    border-right: 0px solid black;
+    border-left: 3px solid black;
+    border-bottom: 0px solid black;
+    /* border-right: 0 solid transparent; */
+    /* border-bottom: 65px solid #CAD5E0; */
+    position: absolute;
+    top: 391px;
+    left: 560px;
+    transform: rotateZ(45deg);
+    z-index: 0;
+    background-color: white;
+}
+
+#triangle2{
+    width: 77px;
+    height: 150px;
+    /* background: #FFFFFF; */
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 3px solid black;
+    border-bottom: 1px solid black;
+    /* border-right: 0 solid transparent; */
+    /* border-bottom: 65px solid #CAD5E0; */
+    position: absolute;
+    top: 280px;
+    left: 642px;
+    transform: rotateZ(46deg);
+    z-index: 0;
+    background-color: white;
+}
+
+#rect3{
+    width: 180px;
+    height: 105px;
+    border: 3px solid black;
+    position: absolute;
+    top: 273px;
+    left: 708px;
+    z-index: 1;
+    background-color: white;
+}
+
+#rect4{
+    width: 112px;
+    height: 200px;
+    border: 3px solid black;
+    position: absolute;
+    top: 178px;
+    left: 889px;
+    z-index: 1;
+    background-color: white;
+}
+
+#rect5{
+    width: 70px;
+    height: 60px;
+    border: 3px solid black;
+    position: absolute;
+    top: 198px;
+    left: 910px;
+    z-index: 2;
+    background-color: white;
+}
+
+#rect6{
+    width: 152px;
+    height: 20px;
+    border: 3px solid black;
+    position: absolute;
+    top: 157px;
+    left: 869px;
+    z-index: 1;
+    background-color: white;
+}
+
+#rect7{
+    width: 20px;
+    height: 30px;
+    border: 3px solid black;
+    position: absolute;
+    top: 242px;
+    left: 739px;
+    z-index: 1;
+    background-color: white;
+}
+
+#rect8{
+    width: 31px;
+    height: 15px;
+    border: 3px solid black;
+    position: absolute;
+    top: 226px;
+    left: 733px;
+    z-index: 1;
+    background-color: white;
+}
+#rect9{
+    width: 30px;
+    height: 20px;
+    border: 3px solid black;
+    position: absolute;
+    top: 330px;
+    left: 1002px;
+    z-index: 1;
+    background-color: white;
+}
+
+#rect10{
+    width: 15px;
+    height: 31px;
+    border: 3px solid black;
+    position: absolute;
+    top: 325px;
+    left: 1033px;
+    z-index: 1;
+    background-color: white;
+}
+
+.canvas-circle{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    border: 3px solid black;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+}
+
+#circle1{
+    top: 450px;
+    left: 620px;
+}
+#circle2{
+    top: 450px;
+    left: 720px;
+}
+#circle3{
+    top: 450px;
+    left: 820px;
+}
+#circle4{
+    top: 450px;
+    left: 920px;
+}
+.fill-area{
+    cursor: pointer;
+}
+
+/* #paint1{
+    background-color: red;
+}
+#paint2{
+    background-color: green;
+}
+#paint3{
+    background-color: black;
+}
+#paint4{
+    background-color: blue;
+}
+#paint5{
+    background-color: pink;
+} */
+
+#blocks{
+    margin: 60px 200px 20px 550px;
+}
+
+
+
+
+
